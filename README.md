@@ -57,17 +57,17 @@ Implementa una API RESTful para la gestión de tareas, cumpliendo los principios
 
 ## 🧭 Diagrama de arquitectura
 
-[ Cliente (curl / Postman / SPA) ]
-|
-HTTP / JSON
-|
-[ API /api/v1 (ViewSets & URLs - DRF) ]
-|
-[ Serializers (Validación / Conversión) ]
-|
-[ Modelos Django (ORM) ]
-|
-[ Base de datos SQLite (Local) ]
+[Cliente (curl/SPA)] 
+        | 
+      HTTP/JSON 
+        | 
+[ API /api/v1 (DRF ViewSets/URLs) ] 
+        | 
+[ Lógica/Serializers (validación) ] 
+        | 
+[ Modelo Django (ORM) ] 
+        | 
+[ DB SQLite (local) ]
 
 
 **Descripción de capas:**
